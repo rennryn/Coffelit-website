@@ -1,0 +1,471 @@
+/* home */
+/*mobile*/
+@media screen and (max-width:500px)/*aslinya 450*/{
+    .header{
+    position: fixed;
+    display: flex;
+    padding: 5px;
+    top: 0px;
+    z-index: 2;
+    background-color: antiquewhite;
+    left:0px;
+    width:100%;
+}
+
+.head-logo{
+    width:35%;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.head-title{
+    font-size: 140%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navigation-nav{
+    padding-top:210px;
+    margin-top:0px;
+    right:0px;
+    left:0px;
+    margin-bottom: 30px;
+    position:relative;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+.nav{
+    display:none;
+    min-width:200px;
+    position: absolute;
+    top:100%;
+    left:0;
+    background-color:blanchedalmond;
+    border-radius: 20px;
+}
+
+.nav li{
+    display: block;
+    padding: 10px;
+
+}
+
+.navigation{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-name{
+    padding:10px;
+    font-size: 20px;
+    background-color:bisque;
+    color:white;
+    border-color: bisque;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navigation :hover{
+    color:beige;
+}
+
+.navigation-nav:hover .nav{
+    display:block;
+}
+
+.front-view{
+    margin-top:210px;
+}
+
+.front-view-logo{
+    width:60%;
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.frontview-title{
+    text-align: center;
+    font-family: arial;
+    font-size: 100%;
+}
+
+.order{
+    text-decoration: none;
+    color:azure;
+    background-color: blanchedalmond;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.order:hover{
+    color:grey;
+}
+
+/*product*/
+
+.top{
+    text-align: center;
+    font-size: 35px;
+    font-family: tahoma;
+    margin:30px;
+    padding-top:200px;
+}
+
+.coffe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+    gap: 120px;
+    border-radius: 20px;
+    margin-top:60px;
+}
+
+.choose{
+    text-align: center;
+}
+
+.push{
+    cursor:pointer;
+    border: 8px solid;
+    border-radius: 20px;
+    color: bisque;
+    margin-top:10px;
+    padding:6px;
+}
+
+.item{
+    float: left;
+    width:280px;
+    margin:20px;
+    padding:10px;
+    background-color: bisque;
+    border-radius: 20px;
+    overflow:auto;
+}
+
+/*about*/
+.about-us{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:200px;
+}
+
+.flw{
+    text-decoration: none;
+    padding:12px;
+}
+
+/*contact*/
+
+.cg{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.cg input,
+.cg textarea{
+    flex:1;
+    padding:15px;
+    border-radius:10px;
+}
+
+.cg input:hover,
+.cg textarea:hover{
+    background-color:rgb(248, 239, 228);
+}
+
+.icon{
+    width: 30px;
+    margin-top:10px;
+}
+
+.contact{
+    margin-top:210px;
+    justify-items: center;
+    box-shadow:10px 10px 10px 10px grey;
+    border-radius:10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.contact-group{
+    padding:10px;
+    position:relative;
+}
+
+.contact-group-label{
+    display: block ;
+}
+
+.contact-group-input{
+    display:block;
+}
+
+.send{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin:20px;
+}
+
+.send:hover{
+    background-color:beige;
+}
+
+.send:active{
+    background-color: white;
+}
+
+.lgo{
+    float: right;
+}
+
+.lg{
+    border-radius: 20px;
+    margin:30px;
+    margin-top:90px;
+    width:100px;
+}
+}
+
+/*desktop*/
+@media screen and (min-width:501px){
+    .header{
+    position: fixed;
+    top:0px;
+    display: flex ;
+    padding: 10px ;
+    z-index: 1;
+}
+
+.head-logo{
+    height: 130px ;
+    border-radius: 20px 20px 20px 20px;
+}
+.head-title{
+    font-size:180%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navigation-nav{
+    position: fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    height: 20%;
+    background-color: white;
+    padding: 8px;
+    margin-top: 0px;
+    padding-left: 45%;
+}
+
+.nav-name{
+    display: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding:4%;
+    font-size: 20px;
+    margin-top:20px;
+}
+
+.navigation{
+    text-decoration: none;
+    color:black;
+}
+
+.navigation:hover{
+    color:beige;
+}
+
+.front-view{
+    display: flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+    padding-top: 110px;
+    margin-top:210px;
+}
+
+.frontview-title{
+    font-size: 100%;
+    font-family: arial;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+.front-view-logo{
+    margin-left: auto;
+    padding-right: 10%;
+    border-radius: 20px;
+    height: 10%;
+}
+
+.view-lg{
+    padding-bottom:25px;
+}
+
+.order{
+    text-decoration: none;
+    font-family: arial;
+    background-color: blanchedalmond;
+    color: azure;
+    font-size: 28px;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.order:hover{
+    color:beige
+}
+
+/*product*/
+.top{
+    text-align: center;
+    font-size: 35px;
+    font-family: tahoma;
+    margin:30px;
+    padding-top:200px;
+}
+
+.coffe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+    gap: 120px;
+    border-radius: 20px;
+    margin-top:60px;
+}
+
+.choose{
+    text-align: center;
+}
+
+.push{
+    cursor:pointer;
+    border: 8px solid;
+    border-radius: 20px;
+    color: bisque;
+    margin-top:10px;
+    padding:6px;
+}
+
+.item{
+    float: left;
+    width:280px;
+    margin:20px;
+    padding:10px;
+    background-color: bisque;
+    border-radius: 20px;
+    overflow:auto;
+}
+
+/*about*/
+
+.about-us{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:200px;
+}
+
+.flw{
+    text-decoration: none;
+    padding:12px;
+}
+
+/*contact*/
+
+    .cg{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.cg input,
+.cg textarea{
+    flex:1;
+    padding:15px;
+    border-radius:10px;
+}
+
+.cg input:hover,
+.cg textarea:hover{
+    background-color:rgb(248, 239, 228);
+}
+
+.icon{
+    width:30px;
+    margin-top:10px;
+}
+
+.contact{
+    margin-top:210px;
+    justify-items: center;
+    box-shadow: 10px 10px 10px 8px grey;
+    width:40%;
+    border-radius:10px;
+    padding:20px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact-group{
+    padding:10px;
+}
+
+.contact-group-label{
+    display: block;
+}
+
+.contact-group-input{
+    display:block;
+}
+
+.send{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin:20px;
+}
+
+.send:hover{
+    background-color:beige;
+}
+
+.send:active{
+    background-color: white;
+}
+
+.lgo{
+    float: right;
+}
+
+.lg{
+    border-radius: 20px;
+    margin:30px;
+    width:100px;
+    margin-top:90px;
+}
+}
